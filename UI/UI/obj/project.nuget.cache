@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "YDLnvYJgB0A=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ecniv\\source\\repos\\UI\\UI\\UI.vbproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ecniv\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.8\\guna.ui2.winforms.2.0.4.8.nupkg.sha512",
+    "C:\\Users\\Ecniv\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\Ecniv\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
