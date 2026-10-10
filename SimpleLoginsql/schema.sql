@@ -16,6 +16,14 @@ CREATE TABLE users (
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP
 );
 
+-- Activity log table (for dashboard)
+CREATE TABLE activity_log (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    event_time DATETIME DEFAULT CURRENT_TIMESTAMP,
+    activity VARCHAR(100) NOT NULL,
+    details VARCHAR(255) NOT NULL
+);
+
 -- Sample accounts (2 admins, 4 employees)
 INSERT INTO users (employee_code, username, password, full_name, role, created_at) VALUES
 ('ADM-0001', 'mfelas',   'admin123',   'Mark Irvin Felas',     'Admin',    '2026-10-03 08:24:15'),
@@ -24,3 +32,10 @@ INSERT INTO users (employee_code, username, password, full_name, role, created_a
 ('EMP-0002', 'vsasing',  'emp123',     'Vince Adrian Sasing',  'Employee', '2026-10-03 19:31:50'),
 ('EMP-0003', 'dramos',   'emp123',     'Dean Daryl Ramos',     'Employee', '2026-10-03 02:14:07'),
 ('EMP-0004', 'holaes',   'emp123',     'Hans Norman Olaes',    'Employee', '2026-10-03 22:58:41');
+
+-- Sample activity logs (for dashboard demo)
+INSERT INTO activity_log (activity, details) VALUES
+('Login', 'Mark Irvin Felas logged in'),
+('Login', 'Jerome Reyes logged in'),
+('Login', 'Mark Justine Obanil logged in'),
+('Applied', 'Jerome Reyes applied for leave');
