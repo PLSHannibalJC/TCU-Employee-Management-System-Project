@@ -56,11 +56,11 @@ INSERT INTO users (employee_code, username, password, full_name, role, created_a
 
 -- Sample employees
 INSERT INTO employees (employee_code, first_name, middle_name, last_name, birthdate, gender, email, contact_number, address, hire_date, college, position, employment_type, status) VALUES
-('ADM-0001', 'Mark Irvin', 'Dizon', 'Felas', '1990-06-20', 'Male', 'mfelas@university.edu', '09181234567', 'Quezon City', '2021-08-01', 'CICT', 'Instructor I', 'Full-Time', 'Active'),
-('ADM-0002', 'Jerome', 'Mendoza', 'Reyes', '1993-02-14', 'Male', 'jreyes@university.edu', '09201234567', 'Makati', '2022-01-10', 'CCJ', 'Assistant Professor', 'Full-Time', 'Active'),
-('EMP-0001', 'Mark Justine', 'Bautista', 'Obanil', '1992-11-05', 'Male', 'mobanil@university.edu', '09191234567', 'Pasig', '2021-08-01', 'IT', 'IT Staff', 'Full-Time', 'Active'),
-('EMP-0002', 'Vince Adrian', 'Ramos', 'Sasing', '1994-09-30', 'Male', 'vsasing@university.edu', '09211234567', 'Taguig', '2022-06-15', 'CICT', 'Instructor II', 'Full-Time', 'Active'),
-('EMP-0003', 'Dean Daryl', 'Santos', 'Ramos', '1995-04-12', 'Male', 'dramos@university.edu', '09251234567', 'Manila', '2023-01-05', 'CICT', 'Instructor I', 'Full-Time', 'Active'),
+('ADM-0001', 'Mark Irvin', 'Daza', 'Felas', '1990-06-20', 'Male', 'mfelas@university.edu', '09181234567', 'Quezon City', '2021-08-01', 'CICT', 'Instructor I', 'Full-Time', 'Active'),
+('ADM-0002', 'Jerome', 'Marquez', 'Reyes', '1993-02-14', 'Male', 'jreyes@university.edu', '09201234567', 'Makati', '2022-01-10', 'CCJ', 'Assistant Professor', 'Full-Time', 'Active'),
+('EMP-0001', 'Mark Justine', 'Bernando', 'Obanil', '1992-11-05', 'Male', 'mobanil@university.edu', '09191234567', 'Pasig', '2021-08-01', 'IT', 'IT Staff', 'Full-Time', 'Active'),
+('EMP-0002', 'Vince Adrian', 'Reyes', 'Sasing', '1994-09-30', 'Male', 'vsasing@university.edu', '09211234567', 'Taguig', '2022-06-15', 'CICT', 'Instructor II', 'Full-Time', 'Active'),
+('EMP-0003', 'Dean Daryl', 'Jasmin', 'Ramos', '1995-04-12', 'Male', 'dramos@university.edu', '09251234567', 'Manila', '2023-01-05', 'CICT', 'Instructor I', 'Full-Time', 'Active'),
 ('EMP-0004', 'Hans Norman', 'Cruz', 'Olaes', '1991-08-18', 'Male', 'holaes@university.edu', '09261234567', 'Quezon City', '2020-03-20', 'CILT', 'Learning Tech Specialist', 'Part-Time', 'Active');
 
 -- Sample activity logs
